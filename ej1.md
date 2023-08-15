@@ -18,7 +18,7 @@ Llamaremos “alumno” a un objeto de JavaScript que tenga la siguiente estruct
 Este ejercicio consiste en crear un array de alumnos distintos, con datos
 inventados que cubran las siguientes condiciones:
 
-- Al menos 3 alumnos deben estar aprobados (nota = 6).
+- Al menos 3 alumnos deben estar aprobados (nota >= 6).
 - Al menos 3 alumnos deben estar desaprobados.
 - Debe haber al menos 2 alumnos en 4°A, 2 alumnos en 5°A, 2 alumnos en 4°B y 2
 en 3°B.
