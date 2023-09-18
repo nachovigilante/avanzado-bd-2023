@@ -1,5 +1,9 @@
 # Ejercitación: Burger Tic
 
+## Entrega
+
+Deberán entregar el archivo con el servidor de Express.js (generalmente `index.js`) pero deberán cambiar la extensión a `.txt`. La entrega se realiza [en este formulario](https://forms.gle/CH9WMHUxfE2n6UuF7).
+
 ## Grupos
 
 La ejercitación se hace en grupos de mínimo 2 máximo 3 integrantes.
