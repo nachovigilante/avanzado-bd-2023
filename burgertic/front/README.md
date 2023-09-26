@@ -2,13 +2,13 @@
 
 ## Qué necesito para correrlo?
 
-1. Instalar el siguiente paquete:
+Instalar el siguiente paquete:
 
 ```bash
 npm i cors
 ```
 
-En el `index.js` deben agregar
+En el `index.js` deben agregar:
 
 ```js
 / ...
