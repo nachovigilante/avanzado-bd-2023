@@ -1,0 +1,108 @@
+.carrousel {
+    height: 600px;
+    width: 100vw;
+}
+
+.carrousel button {
+    height: 100%;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+.slider-container {
+    height: 100%;
+    display: inline-flex;
+    overflow: hidden;
+    scrollbar-width: none;
+    transform: translateX(0);
+    will-change: transform;
+    transition: transform 0.3s ease-out;
+    cursor: grab;
+}
+
+.slide {
+    max-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 4px;
+    user-select: none;
+    object-fit: cover;
+}
+
+.carrousel-overlay {
+    position: absolute;
+    height: 600px;
+    width: 100vw;
+    top: 88px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 15px 20px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.carrousel-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#prev,
+#next {
+    pointer-events: all;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prev:hover,
+#next:hover {
+    font-weight: bold;
+}
+
+#bullets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    pointer-events: all;
+}
+
+.bullet {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bullet:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.bullet.active {
+    background-color: rgba(255, 255, 255, 1);
+}

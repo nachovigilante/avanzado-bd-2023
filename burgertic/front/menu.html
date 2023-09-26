@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Burger Tic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a class="logo" href="./">
+                <img src="./assets/logo.svg" alt="">
+            </a>
+            <nav>
+                <ul>
+                    <!-- <li><a href="./">Home</a></li> -->
+                    <li><a href="./menu.html" class="highlighted">Menú</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container menu">
+        <div class="sections">
+            <section>
+                <h2>Combos</h2>
+                <div class="grid" id="combos">
+                </div>
+            </section>
+            <section>
+                <h2>Principales</h2>
+                <div class="grid" id="principales"></div>
+            </section>
+            <section>
+                <h2>Postres</h2>
+                <div class="grid" id="postres"></div>
+            </section>
+        </div>
+        <div id="pedido">
+            <h2>Mi pedido</h2>
+            <ul></ul>
+            <button id="calcular">Calcular total</button>
+            <div id="total">Total: <span>$15000</span></div>
+        </div>
+    </div>
+    <div id="modal">
+        <button id="close"></button>
+        <div class="item"></div>
+        <button id="add">
+            <div class="add-btn"></div><span>Agregar</span>
+        </button>
+    </div>
+    <div id="modal-background"></div>
+</body>
+
+</html>
