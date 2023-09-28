@@ -104,6 +104,18 @@ document.addEventListener('DOMContentLoaded', function () {
         setPositionByIndex();
     });
 
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') {
+            if (currentIndex >= slides.length - 1) return;
+            currentIndex += 1;
+            setPositionByIndex();
+        } else if (e.key === 'ArrowLeft') {
+            if (currentIndex <= 0) return;
+            currentIndex -= 1;
+            setPositionByIndex();
+        }
+    });
+
     // bullets
     bulletsContainer.addEventListener('click', (e) => {
         if (e.target.classList.contains('bullet')) {
