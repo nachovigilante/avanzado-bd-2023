@@ -55,6 +55,7 @@ En esta segunda parte vamos a agregar la funcionalidad de hacer pedidos. Para es
     }
     ```
 
+    Aclaración: por ahora, todos los pedidos deben asignarse al usuario de prueba que se creó en el paso 2.
 6. Crear un endpoint que permita obtener todos los pedidos de un usuario (`GET /pedidos/:id`).
 
 ### Aclaraciones importantes
