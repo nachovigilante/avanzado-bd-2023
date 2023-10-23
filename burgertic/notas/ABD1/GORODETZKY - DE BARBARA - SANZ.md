@@ -1,4 +1,4 @@
-# Tabla de calificaciones - GORODETZKY - DE BARBARA - ZUTELMAN
+# Tabla de calificaciones - GORODETZKY - DE BARBARA - SANZ
 
 | Ruta         | Caso de prueba       | Calificación |
 | ------------ | -------------------- | ------------ |
