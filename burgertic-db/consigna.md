@@ -63,3 +63,11 @@ En esta segunda parte vamos a agregar la funcionalidad de hacer pedidos. Para es
 - Recordar que para poder utilizar la librería `mysql2`, es necesario instalarla con el comando `npm install mysql2` (conectado a la red de proyecto o por ethernet). Además, hay que requerirla en el archivo `index.js` con la línea `const mysql = require('mysql2');`.
 - Las instrucciones de uso de la librería `mysql2` se encuentran en la [cheatsheet de Node.js](https://cheatsheets-nachovigilante.vercel.app/cheatsheet/node)
 - En todos los casos donde se debe filtrar la información o buscar algún dato en particular, se debe hacer en el servidor, no en el cliente (es decir, en la query de SQL, no en JavaScript).
+
+## Entrega hasta la segunda parte
+
+La fecha límite de entrega para la segunda parte será el día **jueves 2 de noviembre**. La entrega se realizará a través de un formulario de Google Forms cuyo link estará _acá_.
+
+### Importante
+
+Probar todo el código antes de entregarlo. Prestar especial atención a que se utilice los formatos de JSON correctos en los endpoints, y que se utilicen los códigos de estado HTTP correctos para cada situación.
