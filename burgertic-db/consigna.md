@@ -108,6 +108,7 @@ En esta segunda parte vamos a agregar la funcionalidad de hacer pedidos. Para es
 
 ### Aclaraciones importantes
 
+- Para probar el este ejercicio, pueden clonar [este repositorio](https://github.com/nachovigilante/burgertic) y seguir las instrucciones para correrlo.
 - Recordar que para poder utilizar la librería `mysql2`, es necesario instalarla con el comando `npm install mysql2` (conectado a la red de proyecto o por ethernet). Además, hay que requerirla en el archivo `index.js` con la línea `const mysql = require('mysql2');`.
 - Las instrucciones de uso de la librería `mysql2` se encuentran en la [cheatsheet de Node.js](https://cheatsheets-nachovigilante.vercel.app/cheatsheet/node)
 - En todos los casos donde se debe filtrar la información o buscar algún dato en particular, se debe hacer en el servidor, no en el cliente (es decir, en la query de SQL, no en JavaScript).
