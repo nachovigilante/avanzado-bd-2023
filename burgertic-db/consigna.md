@@ -55,8 +55,56 @@ En esta segunda parte vamos a agregar la funcionalidad de hacer pedidos. Para es
     }
     ```
 
+    Esta ruta debe crear un pedido en la base de datos, y para cada producto, debe crear un registro en la tabla `pedidos_platos` con su información y cantidad correspondientes. Luego, debe responder con un objeto que contenga el `id` del pedido creado:
+
+    ```json
+    {
+        "id": 1
+    }
+    ```
+
     Aclaración: por ahora, todos los pedidos deben asignarse al usuario de prueba que se creó en el paso 2.
-6. Crear un endpoint que permita obtener todos los pedidos de un usuario (`GET /pedidos/:id`).
+
+6. Crear un endpoint que permita obtener todos los pedidos de un usuario (`GET /pedidos/:id`). La respuesta debe tener la siguiente estructura:
+
+    ```json
+    [
+        {
+            "id": 5,
+            "fecha": "2023-10-25T03:00:00.000Z",
+            "estado": "pendiente",
+            "id_usuario": 1,
+            "platos": [
+                {
+                    "id": 6,
+                    "nombre": "Combo Jero",
+                    "precio": 3100,
+                    "cantidad": 5
+                },
+                {
+                    "id": 3,
+                    "nombre": "Combo Aro y Ranzo",
+                    "precio": 4500,
+                    "cantidad": 4
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "fecha": "2023-10-25T03:00:00.000Z",
+            "estado": "pendiente",
+            "id_usuario": 1,
+            "platos": [
+                {
+                    "id": 3,
+                    "nombre": "Combo Aro y Ranzo",
+                    "precio": 4500,
+                    "cantidad": 3
+                }
+            ]
+        }
+    ]
+    ```
 
 ### Aclaraciones importantes
 
