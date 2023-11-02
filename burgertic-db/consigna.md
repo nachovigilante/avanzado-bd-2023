@@ -115,7 +115,7 @@ En esta segunda parte vamos a agregar la funcionalidad de hacer pedidos. Para es
 
 ## Entrega hasta la segunda parte
 
-La fecha límite de entrega para la segunda parte será el día **jueves 2 de noviembre**. La entrega se realizará a través de un formulario de Google Forms cuyo link estará _acá_.
+La fecha límite de entrega para la segunda parte será el día **jueves 2 de noviembre**. La entrega se realizará a través de [este un formulario de Google Forms](https://forms.gle/U9XExKZAJCsJWKBk6).
 
 ### Importante
 
