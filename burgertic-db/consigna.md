@@ -106,6 +106,60 @@ En esta segunda parte vamos a agregar la funcionalidad de hacer pedidos. Para es
     ]
     ```
 
+### Ejercicios tercera parte
+
+En esta tercera parte vamos a agregar la funcionalidad de registro y login de usuarios. Para eso, vamos a usar la tabla `usuarios` que creamos en la parte anterior. Seguiremos los siguientes pasos:
+
+1. Crear un endpoint que permita registrar un usuario (`POST /usuarios`). Para eso, se debe recibir una request con la siguiente estructura:
+
+    ```json
+    {
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juanperez@gmail.com",
+        "password": "123456"
+    }
+    ```
+
+    Esta ruta debe crear un usuario en la base de datos, y responder con un objeto que contenga el `id` del usuario creado:
+
+    ```json
+    {
+        "id": 1
+    }
+    ```
+
+    Es importante que la contraseña se guarde en la base de datos encriptada. Para eso, se puede utilizar la librería `bcrypt` de Node. La documentación de la misma se encuentra [acá](https://www.npmjs.com/package/bcrypt).
+
+2. Crear un endpoint que permita hacer login de un usuario (`POST /login`). Para eso, se debe recibir una request con la siguiente estructura:
+
+    ```json
+    {
+        "email": "juanperez@gmail.com",
+        "password": "123456"
+    }
+    ```
+
+    Esta ruta debe buscar un usuario en la base de datos que tenga el email y password recibidos. Si lo encuentra, debe responder con un objeto que contenga el `id` del usuario:
+
+    ```json
+    {
+        "id": 1
+    }
+    ```
+
+    Si no lo encuentra, debe responder con un código de estado `401` y un mensaje de error:
+
+    ```json
+    {
+        "error": "Usuario o contraseña incorrectos"
+    }
+    ```
+
+    Para verificar que la contraseña recibida sea la correcta, se puede utilizar la función `bcrypt.compareSync(password, hash)`, que recibe como primer parámetro la contraseña recibida en la request, y como segundo parámetro la contraseña encriptada que se encuentra en la base de datos.
+
+3. Modificar el endpoint de creación de pedidos para que, en vez de asignarlos al usuario de prueba, los asigne al usuario que está logueado. Para eso, se debe recibir el `id` del usuario logueado en el header `Authorization` de la request.
+
 ### Aclaraciones importantes
 
 - Para probar el este ejercicio, pueden clonar [este repositorio](https://github.com/nachovigilante/burgertic) y seguir las instrucciones para correrlo.
