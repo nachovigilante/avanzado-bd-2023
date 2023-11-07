@@ -160,6 +160,8 @@ En esta tercera parte vamos a agregar la funcionalidad de registro y login de us
 
 3. Modificar el endpoint de creación de pedidos para que, en vez de asignarlos al usuario de prueba, los asigne al usuario que está logueado. Para eso, se debe recibir el `id` del usuario logueado en el header `Authorization` de la request.
 
+4. Modificar el endpoint de obtención de pedidos para que, en vez de devolver todos los pedidos de un usuario cuyo `id` se recibe por parámetro, devuelva todos los pedidos del usuario logueado. Para eso, se debe recibir el `id` del usuario logueado en el header `Authorization` de la request.
+
 ### Aclaraciones importantes
 
 - Para probar el este ejercicio, pueden clonar [este repositorio](https://github.com/nachovigilante/burgertic) y seguir las instrucciones para correrlo.
