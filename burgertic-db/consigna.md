@@ -144,7 +144,10 @@ En esta tercera parte vamos a agregar la funcionalidad de registro y login de us
 
     ```json
     {
-        "id": 1
+        "id": 1,
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "email": "juanperez@gmail.com"
     }
     ```
 
@@ -164,7 +167,7 @@ En esta tercera parte vamos a agregar la funcionalidad de registro y login de us
 
 ### Aclaraciones importantes
 
-- Para probar el este ejercicio, pueden clonar [este repositorio](https://github.com/nachovigilante/burgertic) y seguir las instrucciones para correrlo.
+- Para probar este ejercicio, pueden clonar [este repositorio](https://github.com/nachovigilante/burgertic) y seguir las instrucciones para correrlo.
 - Recordar que para poder utilizar la librería `mysql2`, es necesario instalarla con el comando `npm install mysql2` (conectado a la red de proyecto o por ethernet). Además, hay que requerirla en el archivo `index.js` con la línea `const mysql = require('mysql2');`.
 - Las instrucciones de uso de la librería `mysql2` se encuentran en la [cheatsheet de Node.js](https://cheatsheets-nachovigilante.vercel.app/cheatsheet/node)
 - En todos los casos donde se debe filtrar la información o buscar algún dato en particular, se debe hacer en el servidor, no en el cliente (es decir, en la query de SQL, no en JavaScript).
@@ -172,6 +175,10 @@ En esta tercera parte vamos a agregar la funcionalidad de registro y login de us
 ## Entrega hasta la segunda parte
 
 La fecha límite de entrega para la segunda parte será el día **jueves 2 de noviembre**. La entrega se realizará a través de [este un formulario de Google Forms](https://forms.gle/U9XExKZAJCsJWKBk6).
+
+## Entrega hasta la tercera parte
+
+La fecha límite de entrega para la segunda parte será el día **jueves 16 de noviembre**. La entrega se realizará a través de [este un formulario de Google Forms](https://forms.gle/U9XExKZAJCsJWKBk6).
 
 ### Importante
 
