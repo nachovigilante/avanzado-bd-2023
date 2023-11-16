@@ -178,7 +178,7 @@ La fecha límite de entrega para la segunda parte será el día **jueves 2 de no
 
 ## Entrega hasta la tercera parte
 
-La fecha límite de entrega para la segunda parte será el día **jueves 16 de noviembre**. La entrega se realizará a través de [este un formulario de Google Forms](https://forms.gle/sBbaLhG3Bma2NJgq8).
+La fecha límite de entrega para la segunda parte será el día **viernes 17 de noviembre**. La entrega se realizará a través de [este un formulario de Google Forms](https://forms.gle/sBbaLhG3Bma2NJgq8).
 
 ### Importante
 
