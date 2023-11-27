@@ -1,4 +1,4 @@
-# Nota final al 23/11
+# Nota final al 27/11
 
 Estas notas están sujetas a que se entreguen los trabajos prácticos adeudados.
 
@@ -18,24 +18,24 @@ Estas notas están sujetas a que se entreguen los trabajos prácticos adeudados.
 | BIENIAWSKI MATIAS           | 10         |
 | BORGOBELLO JEREMIAS         | 4          |
 | BREIN EMA                   | 9          |
-| BRUSA VICENTE               | 4          |
+| BRUSA VICENTE               | 7          |
 | BUENOS NICOLAS              | 5          |
 | CARUSO FRANCISCO            | 10         |
 | CENEDESE MARTINA            | 10         |
 | CHAMI LUCA                  | 9          |
 | DE BARBARA FADOL BENJAMÍN   | 10         |
-| DESIMONE JOAQUÍN            | 4          |
+| DESIMONE JOAQUÍN            | 6          |
 | DIZENHAUS MATÍAS            | 9          |
 | DWEK                        | 9          |
-| ESTRUGO MARTIN EZEQUIEL     | 5          |
+| ESTRUGO MARTIN EZEQUIEL     | 6          |
 | FELSTINSKY FRANCO           | 9          |
 | FENLEY CLARA                | 10         |
 | FENLEY JUANA                | 10         |
-| FERNANDEZ DE ANDREA LAUTARO | 5          |
+| FERNANDEZ DE ANDREA LAUTARO | 6          |
 | FILCHTINSKY JERÓNIMO        | 9          |
 | FILIPOVSXIS EMMA            | 9          |
 | FONTAIÑA CAMILA             | 10         |
-| FRESA VICENTE MATEO         | 4          |
+| FRESA VICENTE MATEO         | 7          |
 | FRIED JOAQUIN               | 7          |
 | GALAGOVSKY ANDRÉS           | 5          |
 | GARCHTROM ILAN              | 10         |
@@ -52,7 +52,7 @@ Estas notas están sujetas a que se entreguen los trabajos prácticos adeudados.
 | HAMRA URIEL                 | 4          |
 | JARMA GAEL                  | 10         |
 | KENIGSBERG MICAELA          | 9          |
-| LEVY RAMIRO                 | 4          |
+| LEVY RAMIRO                 | 6          |
 | LOISI BAUTISTA              | 10         |
 | LONGHI BENJAMIN             | 7          |
 | MACULAN DANTE               | 10         |
@@ -88,7 +88,7 @@ Estas notas están sujetas a que se entreguen los trabajos prácticos adeudados.
 | SZNAIDERBEG EZEQUIEL        | 8          |
 | SZUSTER LAUTARO             | 9          |
 | TASSO FEDERICO              | 10         |
-| TERCIANA BENJAMIN           | 5          |
+| TERCIANA BENJAMIN           | 6          |
 | VILLA JUAN IGNACIO          | 9          |
 | WEISSMANN MARTIN            | 4          |
 | WOLFZUN ULISES              | 10         |
