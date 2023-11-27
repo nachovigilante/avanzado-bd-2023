@@ -66,7 +66,7 @@ Estas notas están sujetas a que se entreguen los trabajos prácticos adeudados.
 | PIETRAGALLA MARCO           | 4          |
 | PIROLO MARTINA              | 5          |
 | PORTNOI JANO                | 10         |
-| RAIZMAN FEDERICO            | 5          |
+| RAIZMAN FEDERICO            | 10         |
 | RANGONI LORENZO             | 4          |
 | RODRIGUEZ MOYANO TOMAS      | 7          |
 | ROSMAN MATIAS               | 5          |
