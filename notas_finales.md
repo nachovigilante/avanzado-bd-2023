@@ -1,4 +1,4 @@
-# Nota final al 27/11
+# Nota final al 28/11
 
 Estas notas están sujetas a que se entreguen los trabajos prácticos adeudados.
 
@@ -19,7 +19,7 @@ Estas notas están sujetas a que se entreguen los trabajos prácticos adeudados.
 | BORGOBELLO JEREMIAS         | 4          |
 | BREIN EMA                   | 9          |
 | BRUSA VICENTE               | 7          |
-| BUENOS NICOLAS              | 5          |
+| BUENOS NICOLAS              | 6          |
 | CARUSO FRANCISCO            | 10         |
 | CENEDESE MARTINA            | 10         |
 | CHAMI LUCA                  | 9          |
@@ -37,7 +37,7 @@ Estas notas están sujetas a que se entreguen los trabajos prácticos adeudados.
 | FONTAIÑA CAMILA             | 10         |
 | FRESA VICENTE MATEO         | 7          |
 | FRIED JOAQUIN               | 7          |
-| GALAGOVSKY ANDRÉS           | 5          |
+| GALAGOVSKY ANDRÉS           | 7          |
 | GARCHTROM ILAN              | 10         |
 | GARFUNKEL DEMIAN            | 9          |
 | GLOMBOVSKY AGUSTIN          | 9          |
@@ -69,7 +69,7 @@ Estas notas están sujetas a que se entreguen los trabajos prácticos adeudados.
 | RAIZMAN FEDERICO            | 10         |
 | RANGONI LORENZO             | 4          |
 | RODRIGUEZ MOYANO TOMAS      | 7          |
-| ROSMAN MATIAS               | 5          |
+| ROSMAN MATIAS               | 7          |
 | ROZENBLUM ABRIL             | 4          |
 | RUBEL GAL                   | 9          |
 | RUGNA ROCCO                 | 7          |
@@ -79,9 +79,9 @@ Estas notas están sujetas a que se entreguen los trabajos prácticos adeudados.
 | SANZ ORRÚ GIANLUCA          | 10         |
 | SARAVIA ÁLVARO              | 10         |
 | SEGUI MILNE TOMAS           | 4          |
-| SETTON TOMMY                | 5          |
+| SETTON TOMMY                | 7          |
 | SLISARANSKY ROMÁN           | 10         |
-| SPILZINGER TOMÁS            | 4          |
+| SPILZINGER TOMÁS            | 6          |
 | SPURIO TOMÁS                | 10         |
 | STEFANO JUAN                | 7          |
 | SZCZUPAK SHIRA              | 8          |
